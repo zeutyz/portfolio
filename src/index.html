@@ -15,112 +15,126 @@
       rel="stylesheet"
       href="styles.css"
     />
+
+    <!-- fonts -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="c-navegation">
-      <div class="c-navegation__social">
-        <ul class="c-navegation__social__list">
-          <li class="c-navegation__social__items">
-            <a
-              href="https://github.com/zeutyz"
-              target="_blank"
-            >
-              <img
-                src="../res/icon/github.svg"
-                alt="GitHub Icon"
-                class="social-contact__icon"
-              />
-              GitHub
-            </a>
-          </li>
-          <li class="c-navegation__social__items">
-            <a
-              href="https://www.behance.net/yourusername"
-              target="_blank"
-            >
-              <img
-                src="../res/icon/behance.svg"
-                alt="Behance Icon"
-                class="social-contact__icon"
-              />
-              Behance
-            </a>
-          </li>
-          <li class="c-navegation__social__items">
-            <a
-              href="https://www.instagram.com/yourusername"
-              target="_blank"
-            >
-              <img
-                src="../res/icon/instagram.svg"
-                alt="Instagram Icon"
-                class="social-contact__icon"
-              />
-              Instagram
-            </a>
-          </li>
-          <li class="c-navegation__social__items">
-            <a
-              href="https://www.linkedin.com/in/gustavo-redua"
-              target="_blank"
-            >
-              <img
-                src="../res/icon/linkedin.svg"
-                alt="LinkedIn Icon"
-                class="social-contact__icon"
-              />
-              LinkedIn
-            </a>
-          </li>
-          <li class="c-navegation__social__items">
-            <a
-              href="mailto:gustavoreduaoliveira@gmail.com"
-              target="_blank"
-            >
-              <img
-                src="../res/icon/email.svg"
-                alt="Email Icon"
-                class="social-contact__icon"
-              />
-              Email
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="c-navegation__navegation-menu">
-        <nav class="c-navegation__menu">
+    <header>
+      <nav class="c-navegation">
+        <div class="c-navegation__menu">
           <ul class="c-navegation__list">
             <li
               class="c-navegation__item"
               id="item1"
             >
-              Sobre Mim
+              <a href="#about">Sobre</a>
             </li>
             <li
               class="c-navegation__item"
               id="item2"
             >
-              Projetos
+              <a href="#projects">Projetos</a>
             </li>
             <li
               class="c-navegation__item"
               id="item3"
             >
-              Contato
+              <a href="#contact">Contato</a>
             </li>
             <li
               class="c-navegation__item"
               id="item4"
             >
-              Currículo
+              <a href="#curriculum">Currículo</a>
             </li>
           </ul>
-        </nav>
-      </div>
-    </div>
+        </div>
+        <div class="c-navegation__social">
+          <ul class="c-navegation__social__list">
+            <li class="c-navegation__social__item">
+              <a
+                href="https://github.com/zeutyz"
+                target="_blank"
+              >
+                <img
+                  src="../res/icon/github.svg"
+                  alt="GitHub Icon"
+                  class="social-contact__icon"
+                />
+              </a>
+            </li>
+            <li class="c-navegation__social__item">
+              <a
+                href="https://www.behance.net/gustavoredua"
+                target="_blank"
+              >
+                <img
+                  src="../res/icon/behance.svg"
+                  alt="Behance Icon"
+                  class="social-contact__icon"
+                />
+              </a>
+            </li>
+            <li class="c-navegation__social__item">
+              <a
+                href="https://www.instagram.com/gustavo_redua"
+                target="_blank"
+              >
+                <img
+                  src="../res/icon/instagram.svg"
+                  alt="Instagram Icon"
+                  class="social-contact__icon"
+                />
+              </a>
+            </li>
+            <li class="c-navegation__social__item">
+              <a
+                href="https://www.linkedin.com/in/gustavo-redua"
+                target="_blank"
+              >
+                <img
+                  src="../res/icon/linkedin.svg"
+                  alt="LinkedIn Icon"
+                  class="social-contact__icon"
+                />
+              </a>
+            </li>
+            <li class="c-navegation__social__item">
+              <a
+                href="mailto:gustavoreduaoliveira@gmail.com"
+                target="_blank"
+              >
+                <img
+                  src="../res/icon/email.svg"
+                  alt="Email Icon"
+                  class="social-contact__icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <section class="c-about-me">
+    <div class="c-vertical-line"></div>
+
+    <section
+      class="c-about-me"
+      id="about"
+    >
       <h2>About Me</h2>
       <p>
         Sou formado com técnico em informática pelo Instituto Federal de Mato
@@ -137,11 +151,17 @@
       <p>JavaScript, HTML, C++, Java, and C#.</p>
     </section>
 
-    <section class="c-projects">
+    <section
+      class="c-projects"
+      id="projects"
+    >
       <h2>Projetos</h2>
     </section>
 
-    <section class="c-contact">
+    <section
+      class="c-contact"
+      id="contact"
+    >
       <h2>Fale Comigo</h2>
       <p>
         Agradeço por explorar meu portfólio. Como artista 3D, programador e
