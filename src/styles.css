@@ -7,7 +7,15 @@
   --width-laptop: 78rem;
   --margin-laptop: 6rem;
   --gap-small: 0.85rem;
-  --border-small: 0.625rem;
+  --gap-large: 4rem;
+  --gap-section: 6rem;
+  --border-radius-small: 0.625rem;
+  --border-width-small: 1px;
+  --grid-skill-size: 20rem;
+  --grid-skill-gradient: linear-gradient(120deg, #979797 3.4%, #131313 117.1%);
+  --grid-skill-tamplate-columns: 20rem auto 20rem auto 20rem;
+  --grid-skill-table-height: 10rem;
+  --grid-skill-table-widht: 61rem;
 }
 
 * {
@@ -37,6 +45,9 @@ a {
   transition: color var(--transition-duration) ease;
 }
 
+section {
+  padding: var(--gap-section);
+}
 /* Navegação */
 .c-navegation {
   background-color: black;
@@ -101,7 +112,7 @@ a {
   flex-wrap: wrap;
   gap: var(--gap-small);
   align-items: center;
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 /* Introduction messages */
@@ -143,7 +154,7 @@ a {
   border: white;
   border-style: solid;
   border-width: 1.5px;
-  border-radius: var(--border-small);
+  border-radius: var(--border-radius-small);
   cursor: pointer;
   gap: 10px;
   font-weight: 600;
@@ -163,11 +174,139 @@ a {
 .c-introduction__image img {
   width: 26rem;
   height: 26rem;
-  border-radius: var(--border-small) 0 0 var(--border-small);
+  border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
 }
 
 .c-introduction__image span {
   width: 3rem;
   height: 100%;
   background-color: var(--color-darkred);
+}
+
+.c-see-more-button {
+  all: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26rem;
+  height: 3rem;
+  border-style: solid;
+  border-color: white;
+  border-width: var(--border-width-small);
+  border-radius: var(--border-radius-small);
+  font-size: 2rem;
+  font-family: "Iceland", serif;
+  margin: 0 auto;
+}
+
+.c-skills {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: var(--gap-large);
+}
+
+.c-skills__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26rem;
+  height: auto;
+  background-image: url("../res/icon/skills/Skills.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Iceland", serif;
+  font-size: 5rem;
+  margin: 0 auto;
+}
+
+.c-skills__table {
+  display: grid;
+  gap: 0.7rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.c-skills__top-table {
+  height: var(--grid-skill-table-height);
+  display: grid;
+  grid-template-columns: var(--grid-skill-tamplate-columns);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-darkred);
+  border-radius: 0.5rem 8rem 0.5rem 0.5rem;
+  border-width: var(--border-width-small);
+  border-color: white;
+  border-style: solid;
+}
+
+.c-skills__top-table div {
+  display: grid;
+  grid-template-rows: 5rem 0.8rem;
+  justify-content: center;
+  align-items: start;
+}
+
+.c-skills__top-table img {
+  margin: 0 auto;
+}
+
+.c-skills__middle-table {
+  height: var(--grid-skill-table-height);
+  display: grid;
+  grid-template-columns: var(--grid-skill-tamplate-columns);
+  justify-content: center;
+  align-items: center;
+  background-image: var(--grid-skill-gradient);
+  border-radius: 0.5rem;
+  border-width: var(--border-width-small);
+  border-color: white;
+  border-style: solid;
+}
+
+.c-skills__middle-table div {
+  display: grid;
+  grid-template-rows: 5rem 0.8rem;
+  justify-content: center;
+  align-items: start;
+}
+
+.c-skills__middle-table img {
+  margin: 0 auto;
+}
+
+.c-skills__bot-table {
+  height: var(--grid-skill-table-height);
+  display: grid;
+  grid-template-columns: var(--grid-skill-tamplate-columns);
+  justify-content: center;
+  align-items: center;
+  background-image: var(--grid-skill-gradient);
+  border-radius: 0.5rem 0.5rem 0.5rem 8rem;
+  border-width: var(--border-width-small);
+  border-color: white;
+  border-style: solid;
+}
+
+.c-skills__bot-table div {
+  display: grid;
+  grid-template-rows: 5rem 0.8rem;
+  justify-content: center;
+  align-items: start;
+}
+
+.c-skills__bot-table img {
+  margin: 0 auto;
+}
+
+.c-skills__bot-table div:nth-of-type(1) img {
+  margin: -12px auto;
+}
+
+.c-skills__table__vertical-line {
+  width: 1px;
+  height: 70%;
+  border-radius: 30%;
+  background-color: white;
 }
