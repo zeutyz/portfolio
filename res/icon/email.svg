@@ -1,40 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="23.141006"
-   height="17.666351"
-   viewBox="0 0 23.141006 17.666351"
+   width="50.425888"
+   height="41.405224"
+   viewBox="0 0 50.425888 41.405223"
    fill="none"
    version="1.1"
-   id="svg15"
-   sodipodi:docname="Icons.svg"
+   id="svg2"
+   xml:space="preserve"
+   sodipodi:docname="email.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs15" />
-  <sodipodi:namedview
-     id="namedview15"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#999999"
      borderopacity="1"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
-  <path
-     d="M 20.181,0.50000021 H 2.9600005 c -1.358,0 -2.46000001,1.06596999 -2.46000001,2.38091999 V 14.78545 c 0,1.315 1.10200001,2.3809 2.46000001,2.3809 H 20.181 c 1.358,0 2.46,-1.0659 2.46,-2.3809 V 2.8809202 c 0,-1.31495 -1.102,-2.38091999 -2.46,-2.38091999 z"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path13"
-     inkscape:export-filename="email.svg"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96" />
-  <path
-     d="M 0.50000049,2.8808602 11.571,10.02365 22.641,2.8808602"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path14" />
-</svg>
+     inkscape:deskcolor="#d1d1d1" /><defs
+     id="defs2"><inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.1385566,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" /></defs><g
+     style="fill:none"
+     id="g4"
+     transform="matrix(1.7497982,0,0,1.7497982,0.3532956,0.32318954)"><path
+       d="M 0.50000049,2.8808602 10.664596,9.7429565 a 6.1303069,6.1303069 4.788479e-7 0 0 6.860164,0 L 27.689356,2.8808602"
+       stroke="#ffffff"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path14"
+       style="stroke-width:1.60018;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"
+       transform="translate(0,-0.3762365)"
+       sodipodi:nodetypes="ccc"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="M 0.50000049,2.8808602 14.094678,12.058597 27.689356,2.8808602" /></g><rect
+     style="opacity:0.95;fill:none;stroke:#ffffff;stroke-width:2.85;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="rect5"
+     width="47.575886"
+     height="38.555225"
+     x="1.4250032"
+     y="1.425"
+     ry="4.6248465" /></svg>

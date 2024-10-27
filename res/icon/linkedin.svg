@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="22.884995"
-   height="21.246771"
-   viewBox="0 0 22.884995 21.246771"
+   width="40.992279"
+   height="40.805225"
+   viewBox="0 0 40.992279 40.805225"
    fill="none"
    version="1.1"
-   id="svg15"
-   sodipodi:docname="Icons.svg"
+   id="svg2"
+   sodipodi:docname="whatsapp.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs15" />
-  <sodipodi:namedview
-     id="namedview15"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview2"
      pagecolor="#ffffff"
      bordercolor="#999999"
      borderopacity="1"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
-  <path
-     d="M 19.649002,0.49999992 H 3.2350018 c -1.511,0 -2.73499997,1.13309998 -2.73499997,2.53083998 V 18.21587 c 0,1.3978 1.22399997,2.5309 2.73499997,2.5309 H 19.649002 c 1.511,0 2.736,-1.1331 2.736,-2.5309 V 3.0308399 c 0,-1.39774 -1.225,-2.53083998 -2.736,-2.53083998 z"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path1"
-     inkscape:export-filename="..\OneDrive\Área de Trabalho\linkedin.svg"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.1625"
+     inkscape:cx="-11.266913"
+     inkscape:cy="23.665437"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /><defs
+     id="defs2"><inkscape:path-effect
+       effect="offset"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1.2"
+       linejoin_type="miter"
+       unit="mm"
+       offset="0.1"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" /></defs><rect
+     style="opacity:0.95;fill:none;stroke:#ffffff;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="rect3"
+     width="38.742283"
+     height="38.555225"
+     x="1.125"
+     y="1.125"
+     ry="4.6248465"
+     inkscape:export-filename="linkedin.svg"
      inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96" />
-  <path
-     d="M 5.9710018,9.3578699 V 15.68507"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path2" />
-  <path
-     d="m 5.9710018,5.5615699 v 0.0131"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path3" />
-  <path
-     d="M 11.442002,15.68507 V 9.3578699"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path4" />
-  <path
-     d="m 16.913002,15.68507 v -3.7963 c 0,-0.6712 -0.288,-1.315 -0.801,-1.7896 -0.513,-0.4746001 -1.209,-0.7413001 -1.934,-0.7413001 -0.726,0 -1.422,0.2667 -1.935,0.7413001 -0.513,0.4746 -0.801,1.1184 -0.801,1.7896"
-     stroke="#ffffff"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path5" />
-</svg>
+     inkscape:export-ydpi="96" /><g
+     style="fill:none"
+     id="g5"
+     transform="matrix(1.911806,0,0,1.911806,-1.3776098,-0.75980974)"
+     inkscape:path-effect="#path-effect7"><path
+       id="path6"
+       style="fill:#ffffff;stroke-linecap:round;stroke-linejoin:round"
+       d="M 5.9707031,5.7558594 C 5.5840837,5.7554029 5.2737705,6.0668376 5.2734375,6.453125 v 0.013672 c 3.333e-4,0.3861167 0.3107091,0.697722 0.6972656,0.6972656 0.3860737,-3.33e-4 0.6969325,-0.3110214 0.6972656,-0.6972656 V 6.453125 C 6.6676357,6.0670513 6.356714,5.7561923 5.9707031,5.7558594 Z m 0,2.9042969 C 5.5840837,8.6596997 5.2737705,8.9711344 5.2734375,9.3574219 v 6.3281251 c -4.565e-4,0.386663 0.3106651,0.697722 0.6972656,0.697265 0.386117,-3.32e-4 0.6977219,-0.310879 0.6972656,-0.697265 V 9.3574219 C 6.6676357,8.9713482 6.356714,8.6604892 5.9707031,8.6601563 Z"
+       inkscape:original-d="M 5.9707886,5.9533972 A 0.5,0.5 0 0 0 5.4701984,6.4529657 v 0.014303 A 0.5,0.5 0 0 0 5.9707886,6.9668368 0.5,0.5 0 0 0 6.4703571,6.4672683 V 6.4529657 A 0.5,0.5 0 0 0 5.9707886,5.9533972 Z m 0,2.9044445 A 0.5,0.5 0 0 0 5.4701984,9.3574102 v 6.3278678 a 0.5,0.5 0 0 0 0.5005902,0.50059 0.5,0.5 0 0 0 0.4995685,-0.50059 V 9.3574102 A 0.5,0.5 0 0 0 5.9707886,8.8578417 Z" /><path
+       id="path4"
+       style="color:#000000;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 11.441406,8.6601563 c -0.386619,-4.564e-4 -0.696932,0.3109781 -0.697265,0.6972656 v 2.5312501 3.796875 c -4.57e-4,0.386663 0.310665,0.697722 0.697265,0.697265 0.386117,-3.33e-4 0.697722,-0.310879 0.697266,-0.697265 v -3.796875 c 0,-0.470372 0.201007,-0.928454 0.578125,-1.277344 0.378612,-0.350271 0.904876,-0.556641 1.460937,-0.55664 0.554803,0 1.080285,0.206287 1.458985,0.55664 0.377118,0.34889 0.578125,0.806972 0.578125,1.277344 v 3.796875 c -4.57e-4,0.386663 0.310665,0.697722 0.697265,0.697265 0.386117,-3.33e-4 0.697722,-0.310879 0.697266,-0.697265 v -3.796875 c 0,-0.871477 -0.374443,-1.700366 -1.023438,-2.3007814 -0.647596,-0.5991204 -1.512649,-0.9277343 -2.408203,-0.9277343 -0.737665,0 -1.452018,0.2222189 -2.042968,0.6347656 -0.03146,-0.3568742 -0.328224,-0.6344503 -0.69336,-0.6347656 z"
+       inkscape:original-d="m 11.441524,8.8578417 a 0.5,0.5 0 0 0 -0.50059,0.4995685 v 2.5315558 3.796312 a 0.5,0.5 0 0 0 0.50059,0.50059 0.5,0.5 0 0 0 0.499568,-0.50059 v -3.796312 c 0,-0.528171 0.224533,-1.037207 0.640551,-1.422085 0.416059,-0.384915 0.992213,-0.6099023 1.595759,-0.6099023 0.602379,0 1.177657,0.2249873 1.593716,0.6099023 0.416018,0.384878 0.640551,0.893914 0.640551,1.422085 v 3.796312 a 0.5,0.5 0 0 0 0.50059,0.50059 0.5,0.5 0 0 0 0.499568,-0.50059 v -3.796312 c 0,-0.814226 -0.350336,-1.592304 -0.960315,-2.156624 -0.60994,-0.564283 -1.426491,-0.8745003 -2.27411,-0.8745003 -0.83168,0 -1.630544,0.2985265 -2.23631,0.8418087 V 9.3574102 A 0.5,0.5 0 0 0 11.441524,8.8578417 Z" /></g></svg>
