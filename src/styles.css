@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #111111;
   color: var(--color-text);
   max-width: var(--width-laptop);
   width: 78rem;
@@ -728,9 +728,42 @@ section {
   transition: max-height 0.5s ease; /* Transição suave */
 }
 
-footer {
-  height: 16rem;
+.c-footer {
+  margin-top: -5rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.c-footer__grid {
+  font-family: "Lato", sans-serif;
+  color: black;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-small);
+  margin: auto;
+  justify-items: center; 
+  align-items: center; 
+}
+
+.c-footer p {
+  font-size: 0.6rem;
+}
+
+.c-footer h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Iceland", serif;
+  color: black;
+}
+
+.c-footer img{
+  filter: invert(0%) brightness(0%);
+}
+
 .c-horizontal-line {
   width: 100%;
   height: 1px;
